@@ -1,4 +1,9 @@
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://kavod-ai.vercel.app'),
+};
 
 export default function RootLayout({
   children,
